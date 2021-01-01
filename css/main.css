@@ -16,6 +16,27 @@ html,body {
 	scroll-behavior: smooth;
 }
 
+button{
+	background-color:#242d36;
+	border: none;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+	margin: auto;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #1c2630;
+	color: white;
+	cursor: pointer;
+  }
+
 hr {
 	max-width: 420px;
 	color: #718093;
